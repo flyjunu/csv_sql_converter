@@ -7,3 +7,6 @@ CREATE TABLE job_categories (
     parent_job_id NUMBER(5), -- 상위 직업 이름
     job_name VARCHAR2(50) UNIQUE NOT NULL
 );
+
+사용 방법은 아래 링크 참조
+https://velog.io/@flyjunu/%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%A7%81%EC%97%85-%EC%A2%85%EB%A5%98%ED%8C%8C%EC%9D%BC-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0
