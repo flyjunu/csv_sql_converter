@@ -69,7 +69,7 @@ public class CsvToSqlConverter {
 
                 // 6. SQL 구문 생성 및 파일에 쓰기
                 String sql = String.format(
-                        "INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (%s, %s, '%s');\n",
+                        "INSERT INTO universities (job_id, parent_job_id, job_name) VALUES (%s, %s, '%s');\n",
                         jobId, parentId, jobName
                 );
                 writer.write(sql);
