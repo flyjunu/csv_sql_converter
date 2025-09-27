@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class CsvToSqlConverter {
+public class insert_university_converter {
 
     public static void main(String[] args) {
 
@@ -73,3 +73,4 @@ public class CsvToSqlConverter {
         }
     }
 }
+
